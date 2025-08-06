@@ -175,5 +175,5 @@ In the Python code I assume SNR values, these are not actual recordings. Once ac
 - `w_A_max`: The **ceiling weight** assigned to precision (Objective A), even at very high eDPI.
 - `alpha`: Controls **how quickly** the weighting transitions from SNR-focused to DPI-focused as eDPI increases.
 
-These parameters are apart of the weighting function used to control how much importance is given to **Objective A** versus **Objective B** based on the users eDPI. These parameters play a central role to the outcome and allow the function to adapt to different user styles in a given video game.
+These parameters are apart of the weighting function used to control how much importance is given to **Objective A** versus **Objective B** based on the users eDPI. These parameters play a central role to the outcome and allow the function to adapt to different user styles in a given video game. To find the right parameters you can adjust them so it is roughly what actual pro player's use as their preffered DPI settings, essentially using wisdom of the crowd to find the best values for these 3 parameters, and once you have the parameter values it should be general enough to apply to a wide range of mouses and eDPI values.
 
