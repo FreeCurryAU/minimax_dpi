@@ -108,7 +108,7 @@ Assume the following:
 
 Then:
 1. Compute $w_A$ (800)
-2. Get corresponding $w_B$ = 1 - ​$w_B$
+2. Get corresponding $w_B$ = 1 - ​$w_A$
 3. Calculate $Cost_A(D)$ for each DPI
 4. Calculate $Cost_{B}(D)$ for each DPI
 5. Plug into minimax:
@@ -175,5 +175,5 @@ In the Python code I assume SNR values, these are not actual recordings. Once ac
 - `w_A_max`: The **ceiling weight** assigned to precision (Objective A), even at very high eDPI.
 - `alpha`: Controls **how quickly** the weighting transitions from SNR-focused to DPI-focused as eDPI increases.
 
-These are parameters are apart of the weighting function used to control how much importance is given to **Objective A** versus **Objective B** based on the users eDPI. These parameters play a central role to the outcome and allow the function to adapt to different user styles in a given video game.
+These parameters are apart of the weighting function used to control how much importance is given to **Objective A** versus **Objective B** based on the users eDPI. These parameters play a central role to the outcome and allow the function to adapt to different user styles in a given video game.
 
