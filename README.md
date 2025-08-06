@@ -1,4 +1,4 @@
-This is a markdown file that uses Latek, best used in Obsidian notebook
+This is a markdown file that uses Latek for the math formulas, best used in Obsidian notebook
 
 ## Introduction – Finding the Optimal DPI Using Minimax Cost
 
