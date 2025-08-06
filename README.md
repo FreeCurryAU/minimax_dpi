@@ -38,7 +38,7 @@ To reflect this trade-off, we design a **weighting function that asymptotically 
 This framework provides a **principled approach** for DPI selection by casting the problem as a **minimax optimization**, weighted by a player’s gameplay style (via eDPI), and grounded in real sensor performance (via SNR measurements) and should be flexible enough to accommodate a large selection of video games. The result is a tailored DPI recommendation that balances sensor reliability and movement.
 
 
-## 1. **Objective A – Cost to Maximise Derived from DPI**
+## 1. **Objective A – Cost Derived from DPI**
 
 I define **higher DPI** to be better for **Objective A**, so the cost to maximise is:
 $$
